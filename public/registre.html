@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charsed="utf-8">
+    <title>Ctrl + ART Esdeveniment</title>
+    <link rel="icon" href="img/logo.png">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Ara crearem el header-->
+    <header>
+        <!-- Fiquem el logo a la part superior esquerra-->
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo CTRL+ART">
+        </div>
+
+        <!--Seguidament, creem el menú de navegació-->
+        <nav>
+            <ul>
+                <li><a href=index.html>Inici</a></li>
+                <li><a href=index.html#dates>Dates</a></li>
+                <li><a href=index.html#sponsors>Sponsors</a></li>
+                <li><a href=galeria.html>Galeria</a></li>
+                <li><a href=faq.html>FAQ</a></li>
+                <li><a href=contacte.html>Contacte</a></li>
+                <li><a href=registre.html>Registre</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--Secció registre-->
+    <section class="registre-section">
+        <div class="cinta-imatges">
+            <div class="cinta">
+                <img src="img/img12.jpg" alt="Imatge 12">
+                <img src="img/img13.jpg" alt="Imatge 13">
+                <img src="img/img14.jpg" alt="Imatge 14">
+                <img src="img/img15.jpg" alt="Imatge 15">
+                <img src="img/img16.png" alt="Imatge 16">
+                <img src="img/img17.png" alt="Imatge 17">
+            </div>
+        </div>
+
+        <div class="registre-container">
+            <div class="formulari-caixa">
+                <h2>REGISTRA'T</h2>
+                <form action="#">
+                    <div class="camp">
+                        <span>Nom:</span>
+                        <input type="text" name="nom" required>
+                    </div>
+
+                    <div class="camp">
+                        <span>Correu electrònic:</span>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div class="camp">
+                        <span>Contrasenya:</span>
+                        <input type="password" name="password" required>
+                    </div>
+
+                    <div class="camp">
+                        <span>Confirmar contrasenya:</span>
+                        <input type="password" name="confirm" required>
+                    </div>
+
+                    <!-- Missatge d'error-->
+                    <p id="error-registre" style="color:#ff6b6b; font-size:0.85rem; display:none;"></p>
+
+                    <button type="submit" class="btn-registre">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!--FOOTER-->
+    <!--Ara fem el peu de pàgina que apareixerà sempre-->
+    <footer>
+        <div class="footer-container">
+
+            <!--Xarxes socials-->
+            <div class="xarxes-socials">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="img/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <img src="img/whatsapp.png" alt="Whatsapp">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="img/Linkedin.png" alt="Linkedin">
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="img/youtube.png" alt="Youtube">
+                </a>
+                <a href="https://www.tiktok.com" target="_blank">
+                    <img src="img/TikTok.png" alt="TikTok">
+                </a>
+            </div>
+
+            <!--Enllaços legals-->
+            <div class="legal">
+                <a href=termes.html>Termes i condicions</a>
+                <a href=cookies.html>Política de Cookies</a>
+                <a href=privadesa.html>Política de Privadesa</a>
+            </div>
+
+            <!--Crèdits (copyright)-->
+            <div class="crèdits">
+                <p>&copy;2026 Ctrl + ART. Tots els drets reservats</p>
+                <p>Esdeveniment creat per Jessica Talpa i Daiany Torralba</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/validacio.js"></script>
+
+</body>
+
+</html>

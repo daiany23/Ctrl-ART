@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charsed="utf-8">
+    <title>Ctrl + ART Esdeveniment</title>
+    <link rel="icon" href="img/logo.png">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Ara crearem el header-->
+    <header>
+        <!-- Fiquem el logo a la part superior esquerra-->
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo CTRL+ART">
+        </div>
+
+        <!--Seguidament, creem el menú de navegació-->
+        <nav>
+            <ul>
+                <li><a href=index.html>Inici</a></li>
+                <li><a href=index.html#dates>Dates</a></li>
+                <li><a href=index.html#sponsors>Sponsors</a></li>
+                <li><a href=galeria.html>Galeria</a></li>
+
+                <!--Aquests apartats s'obriràn en una altra pàgina-->
+                <li><a href=faq.html>FAQ</a></li>
+                <li><a href=contacte.html>Contacte</a></li>
+                <li><a href=registre.html>Registre</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="contacte-section">
+        <div class="contacte-container">
+
+            <div class="contacte-esquerra">
+                <div class="contacte-info">
+                    <h2>Contacta'ns</h2>
+                    <h3>On el codi es transforma en art</h3>
+                    <p>Descobreix un espai on les idees prenen vida en format digital, la creativitat desafia els límits
+                        i cada connexió pot convertir-se en la propera gran innovació.</p>
+                    <p><strong><u>Adreça:</u></strong> Av. de Victoriano Muñoz, 25001 Lleida</p>
+                </div>
+
+                <div class="mapa-container">
+                    <!--Aquí fico el mapa real de Google que indica la adreça-->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2982.9195014042725!2d0.6337205755790913!3d41.614252381893294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a6e05fcf9e8cd7%3A0x3823738c2f4a8436!2sFeria%20de%20Lleida!5e0!3m2!1ses-419!2ses!4v1775470899714!5m2!1ses-419!2ses"
+                        width="100%" height="250" style="border: 0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+
+                <div class="contacte-icons">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="img/instagram.png" alt="Instagram">
+                    </a>
+
+                    <a href="https://www.whatsapp.com" target="_blank">
+                        <img src="img/whatsapp.png" alt="Whatsapp">
+                    </a>
+
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="img/Linkedin.png" alt="Linkedin">
+                    </a>
+
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="img/youtube.png" alt="Youtube">
+                    </a>
+
+                    <a href="https://www.tiktok.com" target="_blank">
+                        <img src="img/TikTok.png" alt="TikTok">
+                    </a>
+                </div>
+
+            </div>
+
+            <!--FORMULARI CONTACTE-->
+            <div class="contacte-dreta">
+                <div class="formulari-box">
+                    <form action="#">
+                        <input type="text" name="nom" placeholder="Nom" required>
+                        <input type="email" name="email" placeholder="Correu electrònic" required>
+                        <input type="text" name="assumpte" placeholder="Assumpte" required>
+                        <textarea name="missatge" placeholder="Missatge" rows="5" required></textarea>
+
+                        <!-- Missatge d'error -->
+                        <p id="error-contacte" style="color:#ff6b6b; font-size:0.85rem; display:none;"></p>
+                        
+                        <!--Botó enviar-->
+                        <button type="button" id="btn-contacte">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--FOOTER-->
+    <!--Ara fem el peu de pàgina que apareixerà sempre-->
+    <footer>
+        <div class="footer-container">
+
+            <!--Xarxes socials-->
+            <div class="xarxes-socials">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="img/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <img src="img/whatsapp.png" alt="Whatsapp">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="img/Linkedin.png" alt="Linkedin">
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="img/youtube.png" alt="Youtube">
+                </a>
+                <a href="https://www.tiktok.com" target="_blank">
+                    <img src="img/TikTok.png" alt="TikTok">
+                </a>
+            </div>
+
+            <!--Enllaços legals-->
+            <div class="legal">
+                <a href=termes.html>Termes i condicions</a>
+                <a href=cookies.html>Política de Cookies</a>
+                <a href=privadesa.html>Política de Privadesa</a>
+            </div>
+
+            <!--Crèdits (copyright)-->
+            <div class="crèdits">
+                <p>&copy;2026 Ctrl + ART. Tots els drets reservats</p>
+                <p>Esdeveniment creat per Jessica Talpa i Daiany Torralba</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/validacio.js"></script>
+
+</body>
+
+</html>

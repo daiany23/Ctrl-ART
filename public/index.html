@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ctrl + ART Esdeveniment</title>
+    <link rel="icon" href="img/logo.png">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Cartell de benvinguda -->
+    <div id="welcome-modal" class="welcome-modal">
+        <div class="welcome-content">
+            <h2>BENVINGUT/DA A CTRL + ART!</h2>
+            <p>Prepara't per a l'esdeveniment d'art digital més gran de Lleida.</p>
+            
+            <button id="close-welcome" class="btn-troll">Entrar al Festival</button>
+        </div>
+    </div>
+
+    <!-- Ara crearem el header-->
+    <header>
+        <!-- Fiquem el logo a la part superior esquerra-->
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo CTRL+ART">
+        </div>
+
+        <!--Seguidament, creem el menú de navegació-->
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+        
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="#dates">Dates</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+                <li><a href="registre.html">Registre</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <!--SECCIÓ HERO-->
+
+    <section class="HERO">
+        <video autoplay muted loop id="video-fondo">
+            <source src="img/fons.mp4" type="video/mp4">
+        </video>
+        <div class="contenedor-text">
+            <!--Títol principal-->
+            <h1>Benvinguts a CTRL + ART</h1>
+            <p>Descobreix el poder de la creativitat digital!</p>
+
+            <!--Botó que porta al registre-->
+            <a href="registre.html" class="btn">Registra't</a>
+        </div>
+    </section>
+
+    <!--SECCIÓ DATES-->
+    <!--Afegeixo un id perquè el menú pugui baixar fins aquí-->
+    <section id="dates" class="dates">
+        <h2>DATES</h2>
+
+        <div class="grid-dates">
+            <div class="columna">
+                <p>El nostre festival d’art digital tindrà lloc al Pavelló 4 de Fira de Lleida els dies 4, 5 i 6 de
+                    juny, a un espai emblemàtic que transformarem en un univers creatiu on la tecnologia i l’art es
+                    fusionaran per oferir una experiència immersiva i innovadora. Durant aquests dies, convertirem
+                    l’espai en un punt de trobada per a creadors, artistes digitals i amants de l’art digital.</p>
+                <img src="img/img1.png" alt="Imatge 1">
+            </div>
+
+            <div class="columna">
+                <img src="img/img2.png" alt="Imatge 2">
+                <p>El festival reunirà instal·lacions interactives, projeccions audiovisuals, experiències amb realitat
+                    virtual i xerrades en directe que exploraran les noves formes d’expressió digital. Apostem per una
+                    programació dinàmica, amb tallers que permeten descobrir les últimes tendències en art generatiu,
+                    intel·ligència artificial i creativa.</p>
+            </div>
+        </div>
+
+        <p class="text-final">Reserva aquestes dates i prepara’t per viure una experiència única on la llum, el so i el
+            codi es converteixen en emoció. Volem que aquest festival sigui un espai per inspirar, connectar i celebrar
+            la creativitat digital a la nostra ciutat, Lleida.</p>
+
+    </section>
+
+    <!--ITINERARI-->
+    <section class="itinerari">
+        <h2>ITINERARI</h2>
+
+        <div class="itinerari-container">
+            <table>
+                <tr>
+                    <th>HORA</th>
+                    <th>DIA 1</th>
+                    <th>DIA 2</th>
+                    <th>DIA 3</th>
+                </tr>
+                <tr>
+                    <td class="hora">10:00 - 11:00</td>
+                    <td>Obertura: Mur Digital Tàctil</td>
+                    <td>Taller: Modelatge 3D (Part 1)</td>
+                    <td>Demo: Paisatges Digitals</td>
+                </tr>
+                <tr>
+                    <td class="hora">11:00 - 12:00</td>
+                    <td>Xerrada: Art i IA</td>
+                    <td>Taller: Modelatge 3D (Part 2)</td>
+                    <td>Masterclass: Disseny d'experiències VR</td>
+                </tr>
+                <tr>
+                    <td class="hora">12:00 - 13:00</td>
+                    <td>Demo: Com crear amb llum</td>
+                    <td>Taller: Motion Graphics After Effects</td>
+                    <td>Creació en directe: Escultura 3D</td>
+                </tr>
+                <tr>
+                    <td class="hora">13:00 - 14:00</td>
+                    <td>Networking: Artistes de Ponent</td>
+                    <td>Xerrada: El futur del 3D a Lleida</td>
+                    <td>Taula Rodona: Ètica en l'art digital</td>
+                </tr>
+                <tr class="break">
+                    <td class="hora">14:00 - 16:00</td>
+                    <td colspan="3">DINAR</td>
+                </tr>
+                <td class="hora">16:00 - 17:00</td>
+                <td>Intro a l’Art Generatiu</td>
+                <td>Taller: Animació de personatges</td>
+                <td>Experiència: VR Interactiva</td>
+                </tr>
+                <tr>
+                    <td class="hora">17:00 - 18:00</td>
+                    <td>Sessió: Mapping sobre objectes</td>
+                    <td>Taller: Postproducció de llum</td>
+                    <td>Espectacle Final Audiovisual</td>
+                </tr>
+                <tr>
+                    <td class="hora">18:00 - 19:00</td>
+                    <td>Presentació de Startups Digitals</td>
+                    <td>Jam de Disseny: Repte de 60 min</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!--PATROCINADORS-->
+    <section id="sponsors" class="sponsors">
+        <h2>SPONSORS</h2>
+
+        <!--Conté tots els logos dels patrocinadors-->
+        <div class="sponsors-container">
+            <div class="fila-1">
+                <div class="sponsor-card">
+                    <div class="sponsor-inner">
+                        <div class="sponsor-front">
+                            <img src="img/patrocinador1.png" alt="Apple">
+                        </div>
+                        <div class="sponsor-back">
+                            <span>Apple</span>
+                            <a href="https://www.apple.com/es/" target="_blank">Visitar web</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sponsor-card">
+                    <div class="sponsor-inner">
+                        <div class="sponsor-front">
+                            <img src="img/patrocinador2.png" alt="Adobe">
+                        </div>
+                        <div class="sponsor-back">
+                            <span>Adobe</span>
+                            <a href="https://www.adobe.com" target="_blank">Visitar web</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sponsor-card">
+                    <div class="sponsor-inner">
+                        <div class="sponsor-front">
+                            <img src="img/patrocinador3.png" alt="Amazon">
+                        </div>
+                        <div class="sponsor-back">
+                            <span>Amazon</span>
+                            <a href="https://www.amazon.es" target="_blank">Visitar web</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fila-2">
+                <div class="sponsor-card">
+                    <div class="sponsor-inner">
+                        <div class="sponsor-front">
+                            <img src="img/patrocinador4.png" alt="Microsoft">
+                        </div>
+                        <div class="sponsor-back">
+                            <span>Microsoft</span>
+                            <a href="https://www.microsoft.com/es-es" target="_blank">Visitar web</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sponsor-card">
+                    <div class="sponsor-inner">
+                        <div class="sponsor-front">
+                            <img src="img/patrocinador5.png" alt="Android">
+                        </div>
+                        <div class="sponsor-back">
+                            <span>Android</span>
+                            <a href="https://www.android.com/intl/es_es/" target="_blank">Visitar web</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Botó que va cap al formulari de contacte-->
+        <div class="botó-container">
+            <a href="contacte.html" class="botó-contacte">Contacta'ns</a>
+        </div>
+
+    </section>
+
+    <!--FOOTER-->
+    <!--Ara fem el peu de pàgina que apareixerà sempre-->
+    <footer>
+        <div class="footer-container">
+
+            <!--Xarxes socials-->
+            <div class="xarxes-socials">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="img/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <img src="img/whatsapp.png" alt="Whatsapp">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="img/Linkedin.png" alt="Linkedin">
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="img/youtube.png" alt="Youtube">
+                </a>
+                <a href="https://www.tiktok.com" target="_blank">
+                    <img src="img/TikTok.png" alt="TikTok">
+                </a>
+            </div>
+
+            <!--Enllaços legals-->
+            <div class="legal">
+                <a href="termes.html">Termes i condicions</a>
+                <a href="cookies.html">Política de Cookies</a>
+                <a href="privadesa.html">Política de Privadesa</a>
+            </div>
+
+            <!--Crèdits (copyright)-->
+            <div class="crèdits">
+                <p>&copy;2026 Ctrl + ART. Tots els drets reservats</p>
+                <p>Esdeveniment creat per Jessica Talpa i Daiany Torralba</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/validacio.js"></script>
+
+</body>
+
+</html>
